@@ -33,10 +33,17 @@ OLED面板驱动需要高精度的行场同步时序与高速像素数据传输�
 - 连续运行丢帧率：0%
 
 ## 目录结构
-├── rtl/               
-│   ├── oled_timing_fsm.v 
-│   ├── spi_data_rx.v     
-│   ├── async_fifo.v      
-│   └── top_module.v    
-├── sim/                
-└── docs/            
+rtl/
+├── oled_timing_fsm.v 
+├── spi_data_rx.v 
+├── async_fifo.v 
+└── top_module.v 
+sim/
+├── tb_top.v 
+└── run_sim.bat 
+docs/
+├── oled_timing.png
+├── spi_waveform.png 
+├── fifo_rw.png O 
+└── timing_report.txt 
+README.md       
